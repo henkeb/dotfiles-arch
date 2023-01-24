@@ -1,0 +1,62 @@
+# Where should I put you?
+# bindkey -s ^f "tmux-sessionizer\n"
+#bindkey -s ^f "fzf\n"
+#bindkey -s ^f 'file="$(fzf --height 40% --reverse)" && [ -f "$file" ] && xdg-open "$file"\n'
+bindkey -s ^f 'file="$(fzf)" && [ -f "$file" ] && xdg-open "$file"\n'
+bindkey -s ^b 'git checkout $(git branch -a | fzf)\n'
+
+# Fix path
+path+=('/home/henkeb/dotfiles/scripts')
+
+# update automatically ohmyzsh
+zstyle ':omz:update' mode auto
+
+# fix artifactory keys
+source ~/.zsh_artifactory-keys
+
+# Make fzf find "hidden" files
+export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -l -g ""'
+
+# Make vim xdg-open editor
+export EDITOR=vim
+export VISUAL=vim
+
+# set viminit location
+export MYVIMRC='~/.config/nvim/init.lua'
+export VIMINIT='source $MYVIMRC'
+
+# Alias
+#alias vpn='f5fpc --start --host https://iconnect.global.volvocars.biz -u hberg2'
+alias ta='tmux attach'
+alias gph='git push origin HEAD:refs/for/master'
+# alias set_display='~/dotfiles/scripts/set_displays.sh'
+# alias connect_headphones='~/dotfiles/scripts/connect_headphones.sh'
+# alias mute='amixer -q -D pulse sset Master toggle'
+alias mute='pactl set-sink-mute @DEFAULT_SINK@ toggle'
+alias oldvim="\vim"
+alias vim="nvim"
+
+# functions
+function reload(){
+  source ~/.zshrc
+  # ... add more stuff here
+}
+
+# Messages
+~/dotfiles/scripts/welcome_message.sh
+
+#
+#source ~/Projects/rti_connext_dds-6.1.0/resource/scripts/rtisetenv_x64Linux4gcc7.3.0.zsh
+#if [[ $TERM = screen ]]; then
+    #export TERM=xterm
+#fi
+#
+
+setopt extended_history       # record timestamp of command in HISTFILE
+setopt hist_expire_dups_first # delete duplicates first when HISTFILE size exceeds HISTSIZE
+
+alias ls='ls --color=auto'
+. "$HOME/.cargo/env"
+
+# Haskell path
+export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
