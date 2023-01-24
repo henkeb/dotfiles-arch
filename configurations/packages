@@ -8,6 +8,5 @@ lolcat
 silversearcher-ag
 playerctl
 bat
-fd-find
+fd
 ripgrep
-xclip

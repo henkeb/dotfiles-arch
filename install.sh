@@ -5,18 +5,10 @@ PACKAGE_FILE=$SCRIPT_DIR/configurations/packages
 SYMLINKS_FILE=$SCRIPT_DIR/configurations/symlinks
 
 # Update
-if ( sudo apt update ); then
-	echo " "
-	echo "Update done"
-	echo " "
-	else
-		exit 1
-fi
-
 # Read packages and install line by line
 while IFS= read -r package
 do
-  sudo apt install -y $package
+  sudo pacman -Syu $package
 done < "$PACKAGE_FILE"
 
 # fix symlinks to installed packages
