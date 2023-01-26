@@ -163,3 +163,10 @@ require("lspconfig")["hls"].setup({
 	flags = lsp_flags,
 	capabilities = capabilities,
 })
+
+require("lspconfig").omnisharp.setup({
+	handlers = { ["textDocument/definition"] = require("omnisharp_extended").handler },
+	on_attach = on_attach,
+	flags = lsp_flags,
+	capabilities = capabilities,
+})

@@ -4,7 +4,7 @@ local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 local formatting = null_ls.builtins.formatting
 
 local sources = {
-	formatting.clang_format,
+	formatting.clang_format.with({ filetypes = { "c", "cpp" } }),
 	formatting.cmake_format,
 	formatting.rustfmt,
 	formatting.stylua,
