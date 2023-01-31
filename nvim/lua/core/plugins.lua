@@ -84,10 +84,10 @@ return require("packer").startup(function(use)
 	-- 	ft = { "markdown" },
 	-- })
 
-	use({
-		"Hoffs/omnisharp-extended-lsp.nvim",
-	})
-	--	use({ "romgrk/barbar.nvim", wants = "nvim-web-devicons" })
+	-- use({
+	-- 	"Hoffs/omnisharp-extended-lsp.nvim",
+	-- })
+
 	-- My plugins here
 	-- use 'foo1/bar1.nvim'
 	-- use 'foo2/bar2.nvim'

@@ -176,7 +176,7 @@ bar {
 # ------------------------
 
 exec ~/dotfiles/scripts/set_displays.sh
-exec xrandr --output eDP-1 --brightness 0.7
+#exec xrandr --output eDP-1 --brightness 0.7
 exec xbanish&
 
 # Pulse Audio controls

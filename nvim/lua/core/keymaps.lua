@@ -5,7 +5,7 @@ vim.keymap.set("n", "<leader>ve", ":edit ~/.config/nvim/init.lua<cr>", {})
 vim.keymap.set("n", "<leader>vr", ":source ~/.config/nvim/init.lua<cr>", {})
 
 -- window management
-vim.keymap.set("n", "<leader>sv", "<C-w>v :wincmd l<CR>", { noremap = true })
+vim.keymap.set("n", "<leader>sv", "<C-w>v", { noremap = true })
 vim.keymap.set("n", "<leader>sh", "<C-w>sv", { noremap = true })
 vim.keymap.set("n", "<leader>se", "<C-w>=", { noremap = true })
 vim.keymap.set("n", "<leader>sx", ":close<CR>", { noremap = true })
@@ -33,4 +33,4 @@ vim.keymap.set("n", "<leader>ss", ":ClangdSwitchSourceHeader<CR>", {})
 -- Ease
 vim.keymap.set("n", "<leader>l", ":nohlsearch<CR>")
 -- <Ctrl-l> redraws the screen and removes any search highlighting.
-vim.keymap.set("n", "<C-l>", ":nohl<CR><C-l>", { noremap = true })
+vim.keymap.set("n", "<C-l>", ":nohlsearch<CR><C-l>", { noremap = true })

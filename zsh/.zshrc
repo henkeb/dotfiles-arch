@@ -103,5 +103,3 @@ source $HOME/.zsh_profile
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 fpath+=${ZDOTDIR:-~}/.zsh_functions
-
-[ -f "/home/henkeb/.ghcup/env" ] && source "/home/henkeb/.ghcup/env" # ghcup-env

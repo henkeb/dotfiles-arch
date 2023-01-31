@@ -57,6 +57,3 @@ setopt hist_expire_dups_first # delete duplicates first when HISTFILE size excee
 
 alias ls='ls --color=auto'
 . "$HOME/.cargo/env"
-
-# Haskell path
-export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"

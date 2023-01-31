@@ -157,16 +157,16 @@ require("lspconfig").html.setup({
 	provideFormatter = true,
 })
 
-require("lspconfig")["hls"].setup({
-	filetypes = { "haskell", "lhaskell", "cabal" },
-	on_attach = on_attach,
-	flags = lsp_flags,
-	capabilities = capabilities,
-})
+-- require("lspconfig")["hls"].setup({
+-- 	filetypes = { "haskell", "lhaskell", "cabal" },
+-- 	on_attach = on_attach,
+-- 	flags = lsp_flags,
+-- 	capabilities = capabilities,
+-- })
 
-require("lspconfig").omnisharp.setup({
-	handlers = { ["textDocument/definition"] = require("omnisharp_extended").handler },
-	on_attach = on_attach,
-	flags = lsp_flags,
-	capabilities = capabilities,
-})
+-- require("lspconfig").omnisharp.setup({
+-- 	handlers = { ["textDocument/definition"] = require("omnisharp_extended").handler },
+-- 	on_attach = on_attach,
+-- 	flags = lsp_flags,
+-- 	capabilities = capabilities,
+-- })
