@@ -42,6 +42,13 @@ else
 	mkdir -p ~/.config/i3
 fi
 
+# dunst folder 
+if [ -d "$HOME/.config/dunst" ]; then 
+  echo "dunst config folder exists"
+else 
+  mkdir -p ~/.config/dunst
+fi
+
 # nvim folder
 if [ -d "$HOME/.config/nvim" ]; then
 	echo "nvim folder exists"
@@ -53,6 +60,7 @@ fi
 
 cp i3/.i3status.conf ~/
 cp i3/config ~/.config/i3/
+cp i3/dunstrc ~/.config/dunst/
 cp zsh/.zshrc ~/
 cp zsh/.zsh_profile ~/
 
