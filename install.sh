@@ -1,5 +1,8 @@
 #!/bin/bash
 
+set -x
+set -eo pipefail
+
 SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 PACKAGE_FILE=$SCRIPT_DIR/configurations/packages
 SYMLINKS_FILE=$SCRIPT_DIR/configurations/symlinks
@@ -9,13 +12,6 @@ SYMLINKS_FILE=$SCRIPT_DIR/configurations/symlinks
 while IFS= read -r package; do
 	sudo pacman -Syu $package
 done <"$PACKAGE_FILE"
-
-# fix symlinks to installed packages
-mkdir -p ~/.local/bin
-
-while IFS= read -r symlinks; do
-	$symlinks
-done <"$SYMLINKS_FILE"
 
 # Run the cloning commands etc!
 ./configurations/githubrepos.sh
