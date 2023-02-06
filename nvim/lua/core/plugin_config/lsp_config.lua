@@ -157,6 +157,12 @@ require("lspconfig").html.setup({
 	provideFormatter = true,
 })
 
+require("lspconfig").sqlls.setup({
+	on_attach = on_attach,
+	flags = lsp_flags,
+	capabilities = capabilities,
+})
+
 -- require("lspconfig")["hls"].setup({
 -- 	filetypes = { "haskell", "lhaskell", "cabal" },
 -- 	on_attach = on_attach,

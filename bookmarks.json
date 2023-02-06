@@ -1,0 +1,868 @@
+{
+  "guid": "root________",
+  "title": "",
+  "index": 0,
+  "dateAdded": 1673880434260000,
+  "lastModified": 1674643076732000,
+  "id": 1,
+  "typeCode": 2,
+  "type": "text/x-moz-place-container",
+  "root": "placesRoot",
+  "children": [
+    {
+      "guid": "menu________",
+      "title": "menu",
+      "index": 0,
+      "dateAdded": 1673880434260000,
+      "lastModified": 1674643073162000,
+      "id": 2,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "root": "bookmarksMenuFolder",
+      "children": [
+        {
+          "guid": "0ZuGQb9i_h_Q",
+          "title": "Mozilla Firefox",
+          "index": 0,
+          "dateAdded": 1673880434630000,
+          "lastModified": 1673880434630000,
+          "id": 7,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "_6I2kPDBXH9T",
+              "title": "Get Help",
+              "index": 0,
+              "dateAdded": 1673880434630000,
+              "lastModified": 1673880434630000,
+              "id": 8,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://support.mozilla.org/products/firefox",
+              "type": "text/x-moz-place",
+              "uri": "https://support.mozilla.org/products/firefox"
+            },
+            {
+              "guid": "RZJvdGgKDqH7",
+              "title": "Customize Firefox",
+              "index": 1,
+              "dateAdded": 1673880434630000,
+              "lastModified": 1673880434630000,
+              "id": 9,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://support.mozilla.org/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize",
+              "type": "text/x-moz-place",
+              "uri": "https://support.mozilla.org/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize"
+            },
+            {
+              "guid": "BhezKD4p6jVg",
+              "title": "Get Involved",
+              "index": 2,
+              "dateAdded": 1673880434630000,
+              "lastModified": 1673880434630000,
+              "id": 10,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://www.mozilla.org/contribute/",
+              "type": "text/x-moz-place",
+              "uri": "https://www.mozilla.org/contribute/"
+            },
+            {
+              "guid": "M80uHWC8wjeA",
+              "title": "About Us",
+              "index": 3,
+              "dateAdded": 1673880434630000,
+              "lastModified": 1673880434630000,
+              "id": 11,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://www.mozilla.org/about/",
+              "type": "text/x-moz-place",
+              "uri": "https://www.mozilla.org/about/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "toolbar_____",
+      "title": "toolbar",
+      "index": 1,
+      "dateAdded": 1673880434260000,
+      "lastModified": 1674643076732000,
+      "id": 3,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "root": "toolbarFolder",
+      "children": [
+        {
+          "guid": "1d-Gk2_ksth8",
+          "title": "Rust",
+          "index": 0,
+          "dateAdded": 1661338318000000,
+          "lastModified": 1673881745670000,
+          "id": 14,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "WhMjo0itP8kT",
+              "title": "Programming a Guessing Game - The Rust Programming Language",
+              "index": 0,
+              "dateAdded": 1661338288000000,
+              "lastModified": 1661338319000000,
+              "id": 15,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html#handling-potential-failure-with-the-result-type",
+              "type": "text/x-moz-place",
+              "uri": "https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html#handling-potential-failure-with-the-result-type"
+            },
+            {
+              "guid": "diFA7y5VomiP",
+              "title": "advent-of-code/2022/src/bin at master · Crazytieguy/advent-of-code",
+              "index": 1,
+              "dateAdded": 1670854284000000,
+              "lastModified": 1673881168000000,
+              "id": 16,
+              "typeCode": 1,
+              "iconUri": "https://github.com/fluidicon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://github.com/Crazytieguy/advent-of-code/tree/master/2022/src/bin"
+            },
+            {
+              "guid": "F5gXmgoYrgtf",
+              "title": "The Rust Programming Language - The Rust Programming Language",
+              "index": 2,
+              "dateAdded": 1661410945000000,
+              "lastModified": 1661410945000000,
+              "id": 17,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://doc.rust-lang.org/book/title-page.html",
+              "type": "text/x-moz-place",
+              "uri": "https://doc.rust-lang.org/book/title-page.html"
+            }
+          ]
+        },
+        {
+          "guid": "6Qrgvzxq0HtC",
+          "title": "Linux",
+          "index": 1,
+          "dateAdded": 1604581364000000,
+          "lastModified": 1673881748033000,
+          "id": 18,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "9EtXwXhH6L9Z",
+              "title": "tutorials / markdowndemo — Bitbucket",
+              "index": 0,
+              "dateAdded": 1605272945000000,
+              "lastModified": 1605272951000000,
+              "id": 19,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://bitbucket.org/tutorials/markdowndemo/src/master/",
+              "type": "text/x-moz-place",
+              "uri": "https://bitbucket.org/tutorials/markdowndemo/src/master/"
+            },
+            {
+              "guid": "u7U21Zw9OsdH",
+              "title": "Getting started with the i3 window manager | Opensource.com",
+              "index": 1,
+              "dateAdded": 1622460218000000,
+              "lastModified": 1622460237000000,
+              "id": 20,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://opensource.com/article/18/8/getting-started-i3-window-manager",
+              "type": "text/x-moz-place",
+              "uri": "https://opensource.com/article/18/8/getting-started-i3-window-manager"
+            },
+            {
+              "guid": "rGhLaRBYmeIX",
+              "title": "i3: i3 User’s Guide",
+              "index": 2,
+              "dateAdded": 1622460253000000,
+              "lastModified": 1622460253000000,
+              "id": 21,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://i3wm.org/docs/userguide.html#_opening_terminals_and_moving_around"
+            },
+            {
+              "guid": "3ebQwIXQRzxj",
+              "title": "awesome-streamerrc/ThePrimeagen at master · awesome-streamers/awesome-streamerrc",
+              "index": 3,
+              "dateAdded": 1622460263000000,
+              "lastModified": 1622460263000000,
+              "id": 22,
+              "typeCode": 1,
+              "iconUri": "https://github.com/fluidicon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://github.com/awesome-streamers/awesome-streamerrc/tree/master/ThePrimeagen"
+            },
+            {
+              "guid": "ywL7U_ruocao",
+              "title": "Getting started with Tmux | Linuxize",
+              "index": 4,
+              "dateAdded": 1622460270000000,
+              "lastModified": 1622460270000000,
+              "id": 23,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://linuxize.com/post/getting-started-with-tmux/",
+              "type": "text/x-moz-place",
+              "uri": "https://linuxize.com/post/getting-started-with-tmux/"
+            },
+            {
+              "guid": "gGSAo1UNp4BO",
+              "title": "terminal - i3 Windows Manager - assigning window to workspace - Unix & Linux Stack Exchange",
+              "index": 5,
+              "dateAdded": 1622471521000000,
+              "lastModified": 1622471521000000,
+              "id": 24,
+              "typeCode": 1,
+              "iconUri": "https://cdn.sstatic.net/Sites/unix/Img/favicon.ico?v=fb86ccabb921",
+              "type": "text/x-moz-place",
+              "uri": "https://unix.stackexchange.com/questions/334083/i3-windows-manager-assigning-window-to-workspace"
+            },
+            {
+              "guid": "LvG3qdT_mqVB",
+              "title": "How to Find and Fix Broken Packages on Linux",
+              "index": 6,
+              "dateAdded": 1650355068000000,
+              "lastModified": 1650355077000000,
+              "id": 25,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://www.makeuseof.com/how-to-find-and-fix-broken-packages-on-linux/",
+              "type": "text/x-moz-place",
+              "uri": "https://www.makeuseof.com/how-to-find-and-fix-broken-packages-on-linux/"
+            }
+          ]
+        },
+        {
+          "guid": "ouZWgc5S1Jdm",
+          "title": "Graphics",
+          "index": 2,
+          "dateAdded": 1617014236000000,
+          "lastModified": 1673881749506000,
+          "id": 26,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "JRz42Euacz9_",
+              "title": "http://www.opengl-tutorial.org/assets/faq_quaternions/index.html",
+              "index": 0,
+              "dateAdded": 1617014228000000,
+              "lastModified": 1617014236000000,
+              "id": 27,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "http://www.opengl-tutorial.org/assets/faq_quaternions/index.html"
+            },
+            {
+              "guid": "JnAAPPxsRl7M",
+              "title": "Tutorial 3 : Matrices",
+              "index": 1,
+              "dateAdded": 1617116446000000,
+              "lastModified": 1617116446000000,
+              "id": 28,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "http://www.opengl-tutorial.org/beginners-tutorials/tutorial-3-matrices/"
+            }
+          ]
+        },
+        {
+          "guid": "cJDYmfh3DAap",
+          "title": "C++",
+          "index": 3,
+          "dateAdded": 1620371019000000,
+          "lastModified": 1673881751066000,
+          "id": 29,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "OLF6IMmcPsDk",
+              "title": "C++ User-Defined Exceptions - javatpoint",
+              "index": 0,
+              "dateAdded": 1620371014000000,
+              "lastModified": 1620371019000000,
+              "id": 30,
+              "typeCode": 1,
+              "charset": "windows-1252",
+              "iconUri": "fake-favicon-uri:https://www.javatpoint.com/cpp-user-defined-exceptions",
+              "type": "text/x-moz-place",
+              "uri": "https://www.javatpoint.com/cpp-user-defined-exceptions"
+            },
+            {
+              "guid": "eyLcjM054Tpm",
+              "title": "CppCoreGuidelines/CppCoreGuidelines.md at master · isocpp/CppCoreGuidelines · GitHub",
+              "index": 1,
+              "dateAdded": 1620838797000000,
+              "lastModified": 1620838797000000,
+              "id": 31,
+              "typeCode": 1,
+              "iconUri": "https://github.com/fluidicon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-class"
+            },
+            {
+              "guid": "Q_jhGf8R5lkI",
+              "title": "Using (neo)vim for C++ development | idie",
+              "index": 2,
+              "dateAdded": 1634735863000000,
+              "lastModified": 1634735869000000,
+              "id": 32,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://idie.ru/posts/vim-modern-cpp",
+              "type": "text/x-moz-place",
+              "uri": "https://idie.ru/posts/vim-modern-cpp"
+            },
+            {
+              "guid": "k2HGp8aBO_Tr",
+              "title": "Ray Tracing in One Weekend Series",
+              "index": 3,
+              "dateAdded": 1635152795000000,
+              "lastModified": 1635152795000000,
+              "id": 33,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://raytracing.github.io/"
+            },
+            {
+              "guid": "2fxkLe1eZgRZ",
+              "title": "Refactoring and Design Patterns",
+              "index": 4,
+              "dateAdded": 1635257868000000,
+              "lastModified": 1635257868000000,
+              "id": 34,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://refactoring.guru/",
+              "type": "text/x-moz-place",
+              "uri": "https://refactoring.guru/"
+            },
+            {
+              "guid": "TSAn8B-BPb4s",
+              "title": "carla-simulator/carla: Open-source simulator for autonomous driving research.",
+              "index": 5,
+              "dateAdded": 1635258248000000,
+              "lastModified": 1635258248000000,
+              "id": 35,
+              "typeCode": 1,
+              "iconUri": "https://github.com/fluidicon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://github.com/carla-simulator/carla"
+            },
+            {
+              "guid": "4696S_PVstfp",
+              "title": "c++ - What are the basic rules and idioms for operator overloading? - Stack Overflow",
+              "index": 6,
+              "dateAdded": 1648623188000000,
+              "lastModified": 1648623191000000,
+              "id": 36,
+              "typeCode": 1,
+              "iconUri": "https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196",
+              "type": "text/x-moz-place",
+              "uri": "https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading"
+            },
+            {
+              "guid": "h6d_ZGfWinSq",
+              "title": "C++20 Concepts - a Quick Introduction - C++ Stories",
+              "index": 7,
+              "dateAdded": 1648812422000000,
+              "lastModified": 1648812422000000,
+              "id": 37,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://www.cppstories.com/2021/concepts-intro/",
+              "type": "text/x-moz-place",
+              "uri": "https://www.cppstories.com/2021/concepts-intro/"
+            },
+            {
+              "guid": "iKJbiLFHcNwr",
+              "title": "cpp-best-practices/cppbestpractices: Collaborative Collection of C++ Best Practices. This online resource is part of Jason Turner's collection of C++ Best Practices resources. See README.md for more information.",
+              "index": 8,
+              "dateAdded": 1664365740000000,
+              "lastModified": 1664365748000000,
+              "id": 38,
+              "typeCode": 1,
+              "iconUri": "https://github.com/fluidicon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://github.com/cpp-best-practices/cppbestpractices"
+            },
+            {
+              "guid": "pWIojfincDRa",
+              "title": "Processing a Series of Items with Iterators - The Rust Programming Language",
+              "index": 9,
+              "dateAdded": 1665072419000000,
+              "lastModified": 1665072419000000,
+              "id": 39,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://doc.rust-lang.org/book/ch13-02-iterators.html",
+              "type": "text/x-moz-place",
+              "uri": "https://doc.rust-lang.org/book/ch13-02-iterators.html"
+            }
+          ]
+        },
+        {
+          "guid": "q0JhdKLGZU-t",
+          "title": "Git",
+          "index": 4,
+          "dateAdded": 1621595687000000,
+          "lastModified": 1674643076732000,
+          "id": 40,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "YnesjObIYMv3",
+              "title": "How can I undo the last commit? | Learn Version Control with Git",
+              "index": 0,
+              "dateAdded": 1621595695000000,
+              "lastModified": 1621595703000000,
+              "id": 41,
+              "typeCode": 1,
+              "iconUri": "https://www.git-tower.com/learn/assets/img/favicons/favicon@192w.1673968486.png",
+              "type": "text/x-moz-place",
+              "uri": "https://www.git-tower.com/learn/git/faq/undo-last-commit/"
+            },
+            {
+              "guid": "ZpOXo40AkNfg",
+              "title": "Use vimdiff as git mergetool - Ruslan Osipov",
+              "index": 1,
+              "dateAdded": 1621595714000000,
+              "lastModified": 1621595714000000,
+              "id": 42,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://www.rosipov.com/blog/use-vimdiff-as-git-mergetool/",
+              "type": "text/x-moz-place",
+              "uri": "https://www.rosipov.com/blog/use-vimdiff-as-git-mergetool/"
+            },
+            {
+              "guid": "XD0miJ0X3eyw",
+              "title": "How to Undo a Git Add",
+              "index": 2,
+              "dateAdded": 1621596005000000,
+              "lastModified": 1621596005000000,
+              "id": 43,
+              "typeCode": 1,
+              "iconUri": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+              "type": "text/x-moz-place",
+              "uri": "https://www.freecodecamp.org/news/how-to-undo-a-git-add/"
+            },
+            {
+              "guid": "2EgBkX4_pFPc",
+              "title": "How to Manage Multiple SSH Key Pairs - DEV Community",
+              "index": 3,
+              "dateAdded": 1631022158000000,
+              "lastModified": 1631022161000000,
+              "id": 44,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://dev.to/josephmidura/how-to-manage-multiple-ssh-key-pairs-1ik",
+              "type": "text/x-moz-place",
+              "uri": "https://dev.to/josephmidura/how-to-manage-multiple-ssh-key-pairs-1ik"
+            },
+            {
+              "guid": "srcrLBJ-13Hd",
+              "title": "How to solve merge conflict in a approved review in gerrit? - Stack Overflow",
+              "index": 4,
+              "dateAdded": 1636729530000000,
+              "lastModified": 1636729533000000,
+              "id": 45,
+              "typeCode": 1,
+              "iconUri": "https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196",
+              "type": "text/x-moz-place",
+              "uri": "https://stackoverflow.com/questions/53209237/how-to-solve-merge-conflict-in-a-approved-review-in-gerrit/53213237"
+            },
+            {
+              "guid": "ovJJOB-62LF9",
+              "title": "Git Branches: List, Create, Switch to, Merge, Push, & Delete",
+              "index": 5,
+              "dateAdded": 1643984549000000,
+              "lastModified": 1643984552000000,
+              "id": 46,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://www.nobledesktop.com/learn/git/git-branches",
+              "type": "text/x-moz-place",
+              "uri": "https://www.nobledesktop.com/learn/git/git-branches"
+            },
+            {
+              "guid": "AvoCus4tp9bx",
+              "title": "How To Remove Files From Git Commit – devconnected",
+              "index": 6,
+              "dateAdded": 1657192295000000,
+              "lastModified": 1657192299000000,
+              "id": 47,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://devconnected.com/how-to-remove-files-from-git-commit/",
+              "type": "text/x-moz-place",
+              "uri": "https://devconnected.com/how-to-remove-files-from-git-commit/"
+            },
+            {
+              "guid": "uCnBM1dCIEmn",
+              "title": "Setting git parent pointer to a different parent - Stack Overflow",
+              "index": 7,
+              "dateAdded": 1667924184000000,
+              "lastModified": 1667924192000000,
+              "id": 48,
+              "typeCode": 1,
+              "iconUri": "https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196",
+              "type": "text/x-moz-place",
+              "uri": "https://stackoverflow.com/questions/3810348/setting-git-parent-pointer-to-a-different-parent"
+            },
+            {
+              "guid": "GyEyZn9SuZNj",
+              "title": "oh-my-zsh slow, but only for certain Git repo - Stack Overflow",
+              "index": 8,
+              "dateAdded": 1674643065178000,
+              "lastModified": 1674643076732000,
+              "id": 76,
+              "typeCode": 1,
+              "iconUri": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a",
+              "type": "text/x-moz-place",
+              "uri": "https://stackoverflow.com/questions/12765344/oh-my-zsh-slow-but-only-for-certain-git-repo"
+            }
+          ]
+        },
+        {
+          "guid": "5Ex3YvEteR0J",
+          "title": "Priv",
+          "index": 5,
+          "dateAdded": 1621626946000000,
+          "lastModified": 1673881753731000,
+          "id": 49,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "fZXXJh7RXHGV",
+              "title": "(11) Learn Modern C++ by Building an Audio Plugin (w/ JUCE Framework) - Full Course - YouTube",
+              "index": 0,
+              "dateAdded": 1621626936000000,
+              "lastModified": 1621626946000000,
+              "id": 50,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://www.youtube.com/watch?v=i_Iq4_Kd7Rc",
+              "type": "text/x-moz-place",
+              "uri": "https://www.youtube.com/watch?v=i_Iq4_Kd7Rc"
+            },
+            {
+              "guid": "GXC84SKcx8Nj",
+              "title": "C++ Vector with templates - Code Review Stack Exchange",
+              "index": 1,
+              "dateAdded": 1649068252000000,
+              "lastModified": 1650899223000000,
+              "id": 51,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://codereview.stackexchange.com/questions/204879/c-vector-with-templates",
+              "type": "text/x-moz-place",
+              "uri": "https://codereview.stackexchange.com/questions/204879/c-vector-with-templates"
+            }
+          ]
+        },
+        {
+          "guid": "jmAIBq29-Iwv",
+          "title": "Math",
+          "index": 6,
+          "dateAdded": 1625666982000000,
+          "lastModified": 1673881755438000,
+          "id": 52,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "ymZrkFIB07LQ",
+              "title": "Geometric Transformations",
+              "index": 0,
+              "dateAdded": 1625666974000000,
+              "lastModified": 1625666982000000,
+              "id": 53,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://pages.mtu.edu/~shene/COURSES/cs3621/NOTES/geometry/geo-tran.html"
+            }
+          ]
+        },
+        {
+          "guid": "CHXrYBkn1iAw",
+          "title": "bt",
+          "index": 7,
+          "dateAdded": 1634121167000000,
+          "lastModified": 1673881766111000,
+          "id": 54,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "QBIJtnVXSDC5",
+              "title": "Connect to a Bluetooth device from command line in Ubuntu Linux | Simple IT 🤘 Rocks",
+              "index": 0,
+              "dateAdded": 1634121175000000,
+              "lastModified": 1634121181000000,
+              "id": 55,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://simpleit.rocks/linux/shell/connect-to-bluetooth-from-cli/",
+              "type": "text/x-moz-place",
+              "uri": "https://simpleit.rocks/linux/shell/connect-to-bluetooth-from-cli/"
+            },
+            {
+              "guid": "IOqafAJSO-RG",
+              "title": "How to solve poor-quality audio with bluetooth devices in Ubuntu | by Iago Diógenes | Medium",
+              "index": 1,
+              "dateAdded": 1634121187000000,
+              "lastModified": 1634121187000000,
+              "id": 56,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://medium.com/@iagodiogenes/how-to-solve-poor-quality-audio-with-bluetooth-devices-in-ubuntu-f497a4e10943",
+              "type": "text/x-moz-place",
+              "uri": "https://medium.com/@iagodiogenes/how-to-solve-poor-quality-audio-with-bluetooth-devices-in-ubuntu-f497a4e10943"
+            },
+            {
+              "guid": "taP9WNmh49_I",
+              "title": "Switch between HSP/HFP and A2DP from system tray - DEV Community",
+              "index": 2,
+              "dateAdded": 1634625714000000,
+              "lastModified": 1634625716000000,
+              "id": 57,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://dev.to/ugjka/switch-between-hsp-hfp-and-a2dp-from-system-tray-g6b",
+              "type": "text/x-moz-place",
+              "uri": "https://dev.to/ugjka/switch-between-hsp-hfp-and-a2dp-from-system-tray-g6b"
+            }
+          ]
+        },
+        {
+          "guid": "c0Cpt558GLec",
+          "title": "CMake",
+          "index": 8,
+          "dateAdded": 1638524214000000,
+          "lastModified": 1673881777557000,
+          "id": 58,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "AISXNcClqL_G",
+              "title": "[Solved] C++ Debug and Release Library Linking with CMAKE (VISUAL STUDIO) - Code Redirect",
+              "index": 0,
+              "dateAdded": 1638524202000000,
+              "lastModified": 1638524228000000,
+              "id": 59,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://coderedirect.com/questions/174738/debug-and-release-library-linking-with-cmake-visual-studio",
+              "type": "text/x-moz-place",
+              "uri": "https://coderedirect.com/questions/174738/debug-and-release-library-linking-with-cmake-visual-studio"
+            },
+            {
+              "guid": "jniB4b0mcWlA",
+              "title": "C++ project setup with CMake & unit tests (google test) - Raymii.org",
+              "index": 1,
+              "dateAdded": 1639053579000000,
+              "lastModified": 1639053579000000,
+              "id": 60,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://raymii.org/s/tutorials/Cpp_project_setup_with_cmake_and_unit_tests.html#toc_1"
+            },
+            {
+              "guid": "2MhWtQYxPu4p",
+              "title": "lecture-11.pdf",
+              "index": 2,
+              "dateAdded": 1639754475000000,
+              "lastModified": 1639754475000000,
+              "id": 61,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://db.in.tum.de/teaching/ss20/c++praktikum/slides/lecture-11.pdf?lang=de"
+            },
+            {
+              "guid": "e1q3rMJJ6_RI",
+              "title": "c++ - CMake project fails to find shared library - Stack Overflow",
+              "index": 3,
+              "dateAdded": 1643901552000000,
+              "lastModified": 1643901552000000,
+              "id": 62,
+              "typeCode": 1,
+              "iconUri": "https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196",
+              "type": "text/x-moz-place",
+              "uri": "https://stackoverflow.com/questions/58997230/cmake-project-fails-to-find-shared-library"
+            },
+            {
+              "guid": "90uKq4hIUtW1",
+              "title": "GitHub - aminya/project_options: A general-purpose CMake library that makes using CMake easier",
+              "index": 4,
+              "dateAdded": 1650969419000000,
+              "lastModified": 1650969425000000,
+              "id": 63,
+              "typeCode": 1,
+              "iconUri": "https://github.com/fluidicon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://github.com/aminya/project_options"
+            },
+            {
+              "guid": "IqazJVLz0x5z",
+              "title": "build (Measurement server libs): Adding libs (I17c3f0ca) · Gerrit Code Review",
+              "index": 5,
+              "dateAdded": 1656318687000000,
+              "lastModified": 1656318687000000,
+              "id": 64,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://spas-gerrit.volvocars.biz/c/svadds/+/10362"
+            },
+            {
+              "guid": "ZnqDvVUrb_4J",
+              "title": "Quickstart: Building with CMake | GoogleTest",
+              "index": 6,
+              "dateAdded": 1669126076000000,
+              "lastModified": 1669126084000000,
+              "id": 65,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://google.github.io/googletest/quickstart-cmake.html"
+            }
+          ]
+        },
+        {
+          "guid": "JDvAvXgs9jbY",
+          "title": "ssh",
+          "index": 9,
+          "dateAdded": 1648560758000000,
+          "lastModified": 1673881779191000,
+          "id": 66,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "9qRJNVpXqVFZ",
+              "title": "git - Multiple GitHub accounts on the same computer? - Stack Overflow",
+              "index": 0,
+              "dateAdded": 1648560736000000,
+              "lastModified": 1648560758000000,
+              "id": 67,
+              "typeCode": 1,
+              "iconUri": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a",
+              "type": "text/x-moz-place",
+              "uri": "https://stackoverflow.com/questions/3860112/multiple-github-accounts-on-the-same-computer"
+            }
+          ]
+        },
+        {
+          "guid": "bDsXL9nceCxD",
+          "title": "nvim",
+          "index": 10,
+          "dateAdded": 1670923063000000,
+          "lastModified": 1673881780874000,
+          "id": 68,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "3tVh7OSbFgF8",
+              "title": "Font support for Oh-My-Zsh due to imperfect rendering · Issue #2706 · alacritty/alacritty",
+              "index": 0,
+              "dateAdded": 1670923053000000,
+              "lastModified": 1670923063000000,
+              "id": 69,
+              "typeCode": 1,
+              "iconUri": "https://github.com/fluidicon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://github.com/alacritty/alacritty/issues/2706"
+            },
+            {
+              "guid": "1eb-7xn8wlua",
+              "title": "Change Font in Alacritty – Behova.net",
+              "index": 1,
+              "dateAdded": 1670923077000000,
+              "lastModified": 1670923077000000,
+              "id": 70,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://www.behova.net/fonts-in-alacritty/",
+              "type": "text/x-moz-place",
+              "uri": "https://www.behova.net/fonts-in-alacritty/"
+            },
+            {
+              "guid": "VH7au7LcmV2N",
+              "title": "True Color (24-bit) and italics with alacritty + tmux + vim (neovim)",
+              "index": 2,
+              "dateAdded": 1671012000000000,
+              "lastModified": 1671012000000000,
+              "id": 71,
+              "typeCode": 1,
+              "iconUri": "https://gist.github.com/fluidicon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://gist.github.com/andersevenrud/015e61af2fd264371032763d4ed965b6"
+            },
+            {
+              "guid": "aJG6ieX6i0Av",
+              "title": "Basic Tmux Status Bar",
+              "index": 3,
+              "dateAdded": 1671017540000000,
+              "lastModified": 1671017540000000,
+              "id": 72,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://gist.github.com/markandrewj/ead05ebc20f3968ec07e",
+              "type": "text/x-moz-place",
+              "uri": "https://gist.github.com/markandrewj/ead05ebc20f3968ec07e"
+            }
+          ]
+        },
+        {
+          "guid": "pTp2wDTrZle5",
+          "title": "Bitaddict",
+          "index": 11,
+          "dateAdded": 1674465534743000,
+          "lastModified": 1674643068778000,
+          "id": 74,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "WGtP1irZ05Ds",
+              "title": "Tic-Tac Mobile - Tidrapportering helt enkelt - Men även ett affärssystem",
+              "index": 0,
+              "dateAdded": 1674465518475000,
+              "lastModified": 1674465534792000,
+              "id": 73,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://tictacmobile.se/"
+            },
+            {
+              "guid": "oNF0HzNae3Kj",
+              "title": "Översikt - Winningtemp",
+              "index": 1,
+              "dateAdded": 1674471228126000,
+              "lastModified": 1674471228126000,
+              "id": 75,
+              "typeCode": 1,
+              "iconUri": "https://app.winningtemp.com/favicon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://app.winningtemp.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "unfiled_____",
+      "title": "unfiled",
+      "index": 3,
+      "dateAdded": 1673880434260000,
+      "lastModified": 1674643076732000,
+      "id": 5,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "root": "unfiledBookmarksFolder"
+    },
+    {
+      "guid": "mobile______",
+      "title": "mobile",
+      "index": 4,
+      "dateAdded": 1673880434268000,
+      "lastModified": 1673880434592000,
+      "id": 6,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "root": "mobileFolder"
+    }
+  ]
+}

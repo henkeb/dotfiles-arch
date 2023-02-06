@@ -22,8 +22,8 @@ export EDITOR=vim
 export VISUAL=vim
 
 # set viminit location
-export MYVIMRC='~/.config/nvim/init.lua'
-export VIMINIT='source $MYVIMRC'
+# export MYVIMRC='~/.config/nvim/init.lua'
+# export VIMINIT='source $MYVIMRC'
 
 # Alias
 #alias vpn='f5fpc --start --host https://iconnect.global.volvocars.biz -u hberg2'

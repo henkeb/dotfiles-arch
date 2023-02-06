@@ -178,6 +178,7 @@ bar {
 exec ~/dotfiles/scripts/set_displays.sh
 #exec xrandr --output eDP-1 --brightness 0.7
 exec xbanish&
+exec /usr/bin/dunst&
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec pulsemixer --change-volume +5 #increase sound volume

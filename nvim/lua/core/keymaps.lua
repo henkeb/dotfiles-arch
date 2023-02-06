@@ -1,12 +1,12 @@
 vim.keymap.set("i", "<esc>OH", "<home>", {})
 
 -- Edit configs
-vim.keymap.set("n", "<leader>ve", ":edit ~/.config/nvim/init.lua<cr>", {})
-vim.keymap.set("n", "<leader>vr", ":source ~/.config/nvim/init.lua<cr>", {})
+vim.keymap.set("n", "<leader>ve", ":edit ~/.config/nvim/lua/init.lua<cr>", {})
+vim.keymap.set("n", "<leader>vr", ":source ~/.config/nvim/init.vim<cr>", {})
 
 -- window management
 vim.keymap.set("n", "<leader>sv", "<C-w>v", { noremap = true })
-vim.keymap.set("n", "<leader>sh", "<C-w>sv", { noremap = true })
+vim.keymap.set("n", "<leader>sh", "<C-w>s", { noremap = true })
 vim.keymap.set("n", "<leader>se", "<C-w>=", { noremap = true })
 vim.keymap.set("n", "<leader>sx", ":close<CR>", { noremap = true })
 
