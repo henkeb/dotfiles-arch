@@ -32,6 +32,7 @@ cp tmux/.tmux.conf ~/
 mkdir -p ~/.config/i3
 cp i3/.i3status.conf ~/
 cp i3/config ~/.config/i3/
+cp i3/.muttrc ~/
 
 # nvim folder
 mkdir -p $HOME/config/nvim
