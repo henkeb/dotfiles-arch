@@ -1,0 +1,31 @@
+set realname = "Henrik Berg"
+set from = "henrik.berg@bitaddict.se"
+set use_from = yes
+set envelope_from = yes
+set timeout = 10
+#set mail_check = 60
+set new_mail_command='/usr/bin/notify-send -i ~/.mutt/mail.png "New mail\!" "See inbox"' 
+
+# Ensure TLS is enforced
+set ssl_starttls = yes
+set ssl_force_tls = yes
+
+# Protocol: smtp for TLS (587), smtps for SSL (465)
+set smtp_url = "smtp://henrik.berg@bitaddict.se@smtp.gmail.com:587/"
+set smtp_pass = [INSERT PASSWORD HERE!]
+set imap_user = "henrik.berg@bitaddict.se"
+set imap_pass = [INSERT PASSWORD HERE!]
+set imap_keepalive = 900
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set record = "+[Gmail]/Sent Mail"
+set postponed = "+[Gmail]/Drafts"
+set header_cache = "~/.mutt/cache/headers"
+set message_cachedir = "~/.mutt/cache/bodies"
+set certificate_file = "~/.mutt/certificates"
+set move = no
+
+# Needed to get and display mail (imap-fetch-mail)
+set editor = "vim"
+set charset = "utf-8"
+set record = ""
