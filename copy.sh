@@ -11,6 +11,7 @@ cp ~/.zshrc $SCRIPT_DIR/zsh/
 cp ~/.zsh_profile $SCRIPT_DIR/zsh/
 cp ~/.zsh_history $SCRIPT_DIR/zsh/
 cp ~/.alacritty.yml $SCRIPT_DIR/configurations/
+cp ~/.config/dunst/dunstrc $SCRIPT_DIR/i3/
 
 # i3 folder
 if [ -d "$HOME/.config/i3" ]; then

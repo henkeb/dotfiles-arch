@@ -33,31 +33,18 @@ fi
 cp tmux/.tmux.conf ~/
 
 # i3 folder
-if [ -d "$HOME/.config/i3" ]; then
-	echo "i3 config folder exists"
-else
-	mkdir -p ~/.config/i3
-fi
-
-# dunst folder
-if [ -d "$HOME/.config/dunst" ]; then
-	echo "dunst config folder exists"
-else
-	mkdir -p ~/.config/dunst
-fi
-
-# nvim folder
-if [ -d "$HOME/.config/nvim" ]; then
-	echo "nvim folder exists"
-	cp $SCRIPT_DIR/nvim/* $HOME/.config/nvim/
-else
-	mkdir -p $HOME/config/nvim
-	cp $SCRIPT_DIR/nvim/* $HOME/.config/nvim/
-fi
-
+mkdir -p ~/.config/i3
 cp i3/.i3status.conf ~/
 cp i3/config ~/.config/i3/
-cp i3/dunstrc ~/.config/dunst/
+
+# nvim folder
+mkdir -p $HOME/config/nvim
+cp $SCRIPT_DIR/nvim/* $HOME/.config/nvim/
+
+# dunst folder
+mkdir -p $HOME/.config/dunst
+cp $SCRIPT_DIR/i3/.dunstrc $HOME/.config/dunst/
+
 cp zsh/.zshrc ~/
 cp zsh/.zsh_profile ~/
 
