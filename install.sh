@@ -1,30 +1,27 @@
 #!/bin/bash
 
-SCRIPT_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 PACKAGE_FILE=$SCRIPT_DIR/configurations/packages
 SYMLINKS_FILE=$SCRIPT_DIR/configurations/symlinks
 
 # Update
 # Read packages and install line by line
-while IFS= read -r package
-do
-  sudo pacman -Syu $package
-done < "$PACKAGE_FILE"
+while IFS= read -r package; do
+	sudo pacman -Syu $package
+done <"$PACKAGE_FILE"
 
 # fix symlinks to installed packages
 mkdir -p ~/.local/bin
 
-while IFS= read -r symlinks
-do
-  $symlinks
-done < "$SYMLINKS_FILE"
-
+while IFS= read -r symlinks; do
+	$symlinks
+done <"$SYMLINKS_FILE"
 
 # Run the cloning commands etc!
 ./configurations/githubrepos.sh
 
 # Fix mimes (xdg-open) to the correct filetype
-if ( ./configurations/filetypes.sh ); then
+if (./configurations/filetypes.sh); then
 	echo " "
 	echo "Mimes OK"
 	echo " "
@@ -42,11 +39,11 @@ else
 	mkdir -p ~/.config/i3
 fi
 
-# dunst folder 
-if [ -d "$HOME/.config/dunst" ]; then 
-  echo "dunst config folder exists"
-else 
-  mkdir -p ~/.config/dunst
+# dunst folder
+if [ -d "$HOME/.config/dunst" ]; then
+	echo "dunst config folder exists"
+else
+	mkdir -p ~/.config/dunst
 fi
 
 # nvim folder
@@ -68,8 +65,12 @@ cp zsh/.zsh_profile ~/
 git config --global core.editor "nvim"
 
 mkdir -p ~/.virtualenv
-cd ~/.virtualenv
-python3 -m venv neovim3
-source neovim3/bin/activate
-python3 -m pip install pynvim
-deactivate
+
+eco ""
+echo "Do the following manually!"
+echo ""
+echo "cd ~/.virtualenv"
+echo "python3 -m venv neovim3"
+echo "source neovim3/bin/activate"
+echo "python3 -m pip install pynvim"
+echo "deactivate"
