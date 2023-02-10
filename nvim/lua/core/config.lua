@@ -32,6 +32,7 @@ vim.wo.signcolumn = "yes"
 
 vim.cmd("set mouse=")
 vim.cmd("let g:python3_host_prog = '$HOME/.virtualenv/neovim3/bin/python3'")
+vim.cmd("let g:loaded_ruby_provider = 0")
 
 -- Disable perl
 vim.cmd("let g:loaded_perl_provider = 0")

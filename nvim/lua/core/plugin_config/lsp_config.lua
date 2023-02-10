@@ -45,7 +45,7 @@ local on_attach = function(client, bufnr)
 	require("lsp-inlayhints").on_attach(client, bufnr)
 
 	-- Makes the lsp not changing treesitter
-	client.server_capabilities.semanticTokensProvider = nil
+	--client.server_capabilities.semanticTokensProvider = nil
 end
 
 local lsp_flags = {
