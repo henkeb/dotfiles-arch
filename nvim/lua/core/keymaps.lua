@@ -32,5 +32,6 @@ vim.keymap.set("n", "<leader>ss", ":ClangdSwitchSourceHeader<CR>", {})
 
 -- Ease
 vim.keymap.set("n", "<leader>l", ":nohlsearch<CR>")
+vim.keymap.set("n", "<leader>gb", ":Git blame<CR>")
+
 -- <Ctrl-l> redraws the screen and removes any search highlighting.
-vim.keymap.set("n", "<C-l>", ":nohlsearch<CR><C-l>", { noremap = true })
