@@ -26,12 +26,10 @@ vim.keymap.set("n", "<leader>8", "8gt", { noremap = true })
 vim.keymap.set("n", "<leader>9", "9gt", { noremap = true })
 vim.keymap.set("n", "<leader>0", ":tablast<cr>", { noremap = true })
 
-vim.keymap.set("n", "<leader>Q", ":bufdo bwipeout", {})
+vim.keymap.set("n", "<leader>Q", ":%bd|e#<CR>", {})
 
 vim.keymap.set("n", "<leader>ss", ":ClangdSwitchSourceHeader<CR>", {})
 
 -- Ease
 vim.keymap.set("n", "<leader>l", ":nohlsearch<CR>")
 vim.keymap.set("n", "<leader>gb", ":Git blame<CR>")
-
--- <Ctrl-l> redraws the screen and removes any search highlighting.
