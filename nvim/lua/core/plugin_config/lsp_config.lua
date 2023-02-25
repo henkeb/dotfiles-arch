@@ -2,7 +2,7 @@ require("mason").setup()
 require("mason-lspconfig").setup({
 	ensure_installed = {
 		-- Language servers
-		"luau_lsp",
+		"lua_ls",
 		"bashls",
 		"clangd",
 		"cmake",
@@ -61,7 +61,7 @@ local capabilities = require("cmp_nvim_lsp").default_capabilities()
 --}
 -- Set up lspconfig. COMING FROM NVIM-CMP STOP
 
-require("lspconfig").luau_lsp.setup({
+require("lspconfig").lua_ls.setup({
 	on_attach = on_attach,
 	flags = lsp_flags,
 	capabilities = capabilities,

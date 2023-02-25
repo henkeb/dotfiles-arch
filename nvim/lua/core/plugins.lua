@@ -38,7 +38,13 @@ return require("packer").startup(function(use)
 		"hrsh7th/cmp-path",
 		"hrsh7th/cmp-cmdline",
 		"hrsh7th/nvim-cmp",
-		use({ "L3MON4D3/LuaSnip", run = "make install_jsregexp" }),
+		use({
+			"L3MON4D3/LuaSnip",
+			-- follow latest release.
+			tag = "v<CurrentMajor>.*",
+			-- install jsregexp (optional!:).
+			run = "make install_jsregexp",
+		}),
 	})
 
 	--use("mfussenegger/nvim-lint")
